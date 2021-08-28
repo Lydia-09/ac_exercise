@@ -78,7 +78,7 @@ const view = {
   },
   showGameFinished() {
     const div = document.createElement('div')
-    div.classList.add('complete')
+    div.classList.add('completed')
     div.innerHTML = `
       <p>Complete!</p>
       <p>Score: ${model.score}</p>
